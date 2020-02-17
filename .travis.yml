@@ -25,7 +25,7 @@ after_success: |
     git rm -rf --cached .
     mv keep_custom.css custom.css
     mv talk.slides.html slides.html
-    git add -f --ignore-errors index.html slides.html custom.css reveal.js
+    git add -f --ignore-errors index.html slides.html reveal.js
     git -c user.name='travis' -c user.email='travis' commit -m init
     git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/$TRAVIS_REPO_SLUG gh-pages
     fi
