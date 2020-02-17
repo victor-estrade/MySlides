@@ -2,4 +2,4 @@
 Trying to setup online slides and other materials
 
 Slide url :
-- https://victor-estrade.github.io/MySlides
+- [https://victor-estrade.github.io/MySlides/slides](https://victor-estrade.github.io/MySlides/slides)
